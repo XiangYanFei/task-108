@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>试卷</title>
+		<link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="./jquery-3.2.1.js"></script> 
+        <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+		<script type="text/javascript" src="count.js"></script>
+		
+</head>
+
+	<body>
+        <!--write your code here-->
+        <div class="container">
+        	<div class="row">
+        		<div class="col-lg-12 col-md-12 title1">
+					<h1>统一建模语言理论测试</h1>		
+       			</div>
+				<ul class="list-inline test-info">
+       			<li>
+       				考试科目: 统一建模语言
+       			</li>
+       			<li>
+       				时间: 100分钟
+       			</li>
+       			<li>
+       				得分: 100分
+       			</li>
+				</ul>
+					
+     			<div class="col-lg-12 col-md-12 stu-info">
+      				<form class="form-inline">
+      						<div class="form-group col-lg-4 col-md-4">
+       							<label for="class">班级：
+       							<input type="text" class="form-control" id="class" placeholder="**班">
+       							</label>
+       						</div>
+             				<div class="form-group col-lg-4 col-md-4">
+       							<label for="Stu-num">学号：
+       							<input type="text" class="form-control" id="Stu-num" placeholder="***">
+       							</label>
+       						</div>
+       						<div class="form-group col-lg-4 col-md-4">
+       							<label for="Stu-name">姓名：
+       							<input type="text" class="form-control" id="Stu-name" placeholder="***">
+       							</label>
+       						</div>
+       				</form>
+       			</div>
+       			
+       		<div class="col-lg-12 col-md-12 blank-fill">
+				<h2>一、填空题（没空5分，共20分）</h2>		
+          		<form class="form-horizontal">
+					<ol>
+          			<li class="control-group col-md-12">
+          				<label class="control-label" for="UML-name">UML的中文全称是：
+          					<input type="text" id="UML-name" value="统一建模语言">
+ 	          			</label>
+          			</li>
+          			<li class="control-group col-md-12">
+          				<label class="control-label" for="trait">对象最突出的特征是：
+          					<input type="text" name="trait" value="封装性">
+          					<input type="text" name="trait" value="继承性">
+          					<input type="text" name="trait" value="多态性">
+          				</label>
+          			</li>
+					</ol>
+          		</form>
+			</div>
+   			
+
+       		
+       		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h2>二、选择题（每题10分，共20分）</h2>	
+				<ol>
+				<li>
+       			<label for="rad1">UML与软件工程的关系是:</label>
+      				<div class="radio">
+						<ul>
+       					<li><input type="radio" name="rad1" >(A)UML就是软件工程</li>
+       					<li><input type="radio" name="rad1" checked>(B)UML参与到软件工程中软件开发过程的几个阶段</li>
+       					<li><input type="radio" name="rad1">(C)UML与软件工程无关</li>
+       					<li><input type="radio" name="rad1">(D)UML是软件工程的一部分</li>	
+						</ul>
+					</div>
+					</li>
+				<li>
+				<label for="rad2">JAVA语言支持:</label>
+           			<div class="radio">
+						<ul>
+            			<li><input type="radio" name="rad2" checked>(A)单继承</li>
+       					<li><input type="radio" name="rad2">(B)多继承</li>
+       					<li><input type="radio" name="rad2">(C)单继承和多继承都支持</li>
+       					<li><input type="radio" name="rad2">(D)单继承和多继承都不支持</li>
+						</ul>
+       				</div>
+					</li>
+					</ol>
+			</div>
+    
+       			
+       		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h2>三、多选题(每题10分，共20分)</h2>	
+				<ol><li>
+       			<label for="check1">用例的粒度分为以下哪三种:</label>
+      		    	<div class="checkbox">
+						<ul>
+       		    		<li><input type="checkbox" name="check1" checked>(A)概述级</li>
+						<li><input type="checkbox" name="check1" checked>(B)需求级</li>
+       					<li><input type="checkbox" name="check1">(C)用户目标级</li>
+       					<li><input type="checkbox" name="check1" checked>(D)子功能级</li>
+						</ul>
+       				</div>     
+					</li>
+					<li>
+       			<label for="check2">类图由以下哪三部分组成:</label>
+      		    	<div class="checkbox">
+						<ul>
+       		    		<li><input type="checkbox" name="check2"  checked>(A)名称(Name)</li>
+						<li><input type="checkbox" name="check2"  checked>(B)属性(Attribute)</li>
+       					<li><input type="checkbox" name="check2"  checked>(C)操作(Operation)</li>
+       					<li><input type="checkbox" name="check2">(D)方法(Function)</li>
+					    </ul>
+       				</div>
+					</li></ol>
+        	</div>
+       			
+       		<div class="col-lg-12 col-md-12">
+				<h2>四、判断题(每题10分，共20分)</h2>	
+				<ol>
+			<li class="judge">	
+				<label for="judge1">用例图只是用于和客户交流和沟通的，用于确定需求。
+				<input type="radio" name="judge1">√
+				<input type="radio" name="judge1" checked>×
+				</label>
+			</li>
+			<li class="judge">
+				<label for="judge">在状态图中，终止状态在一个状态图中允许有任意多个。
+				<input type="radio" name="judge2" checked>√
+				<input type="radio" name="judge2">×
+				</label>
+      		</li></ol>
+      		</div>
+      		
+      		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<h2>五、简答题(每题20分，共20分)</h2>		
+       				<form role="form">
+						<ol>
+       					<li class="form-group ans-ques">
+       					<label for="">简述什么是模型以及模型的表现形式？</label>
+       					<textarea class="form-control"  id="short-answer" rows="5" >模型是对现实世界的简化和抽象，模型是对所研究的系统、过程事物或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式。</textarea>
+						</li>
+       					</ol>
+       				</form>
+          	</div>
+          		
+          		<button type="button" class="btn btn-default" onClick="count()">计算分数</button>
+        	</div>
+        </div>
+      
+ </body>
+</html>
